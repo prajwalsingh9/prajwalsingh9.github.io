@@ -1,0 +1,330 @@
+html{
+    box-sizing: border-box;
+    background-color: black;
+    scroll-behavior: smooth;
+  }
+
+header{
+   
+    margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+  }
+  header h1{
+      color: white;
+      font-size: 60px;
+  }
+
+  nav a{
+      text-decoration: none;
+      color: white;
+      margin: 10px;
+  }
+
+  nav a:hover{
+      opacity:0.5;
+      color: gray;
+  }
+
+  /* ---------------Welcome---------------- */
+
+.home{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 560px;
+    margin-top: 50px;
+    box-shadow:0 0 20px 0px white;
+    border-color: white;
+}
+
+.side{
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    background-color: rgb(29, 28, 28);
+    height: 560px;
+  }
+
+  .main {
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+  }
+
+.home h1{
+    color: white;
+    text-align: center;
+    padding-top: 170px;
+    font-size: 50px;
+}
+
+.home h4{
+    color: white;
+    text-align: center;
+}
+.main img{
+    height: 560px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* -----------AboutMe-------------- */
+
+.bio{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 60px;
+    height: 560px;
+    box-shadow:0 0 20px 0px white;
+}
+
+.side1{
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+  }
+
+  .main1 {
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    height: 560px;
+  }
+
+  .side1 img{
+    height: 560px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.bio h1{
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.bio p{
+    margin-top: 0px;
+    padding-top: 0Px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+/* ---------------Experience------------- */
+
+.experience{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.experience h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.experience h3{
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom:60px;
+}
+
+.experience img{
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    border-radius: 30%;
+    box-shadow:0 0 15px 0px white;
+}
+
+.tata{
+    display: flex;
+    text-align: center;
+}
+
+.experience h4{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 45%;
+    background-color: rgb(29, 28, 28) ;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* ----------------message-------------------------- */
+
+.message{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 400px;
+    background-color: whitesmoke;
+    box-shadow:0 0 15px 0px white;
+}
+
+.side2{
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+  }
+
+.main2{
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    height: 400px;
+  }
+
+.side2 img{
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-color: white;
+}
+
+.message h1{
+    color: black;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 30px;
+}
+
+/* -----------------Education-------------------- */
+
+.education h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.education h3{
+    padding-top: 0px;
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.education{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-top:70px;
+}
+
+.all{
+    display: flex;
+    padding-bottom: 70px;
+}
+.all .ed1, .ed2, .ed3{
+    background-color: rgb(29, 28, 28);
+    margin: 10px;
+    width: 33%;
+    box-shadow:0 0 15px 0px white;
+    border-radius: 20%;
+}
+ .all h1{
+     font-size: 30px;
+     padding: 20px;
+ }
+.all p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.ed1:hover{
+    opacity: 0.5;
+    color: white;
+}
+.ed2:hover{
+    opacity: 0.5;
+    color: white;
+}
+.ed3:hover{
+    opacity: 0.5;
+    color: white;
+}
+
+
+/* -------------My Skills---------------- */
+
+.skills{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+    height: 700px;
+}
+ 
+  .skills h1{
+    margin: 0px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    padding-top:50px;
+  }
+  
+  .skills li{
+  border:solid 1px white;
+  top:50px;
+  -webkit-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -o-transition:all 1s ease;
+  transition:all 1s ease;
+  box-shadow:0 0 15px 0px white;
+  background:black;
+  text-align:center;
+  display:inline-block;
+  list-style:none;
+  position: relative;
+  color: white;
+  }
+  
+  .skills li:hover{
+  top:0px;
+  opacity:0.5;
+  }
+  
+
+  /* -------------------Socail----------- */
+  .soc{
+      padding-top: 60px;
+      text-align: center;
+  }
+  
+  .soc h3{
+      color: white;
+  }
+  
+  .soc a:hover{
+      opacity: 0.5;
+      color: black;
+  }
